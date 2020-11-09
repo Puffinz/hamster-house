@@ -15,6 +15,7 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.7
+      - run: bundle check
       - run: bundle install
 
       - uses: helaili/jekyll-action@2.0.4
