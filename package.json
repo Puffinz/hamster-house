@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Puffinz/hamster-house#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "bootstrap-sass": "^3.4.1",
     "jquery": "^3.5.1",
     "popper": "^1.0.1"
   }
