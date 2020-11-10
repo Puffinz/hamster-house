@@ -20,6 +20,13 @@ defaults:
     values:
       layout: 'default'
 
+exclude: [
+  README.md,
+  goals.md,
+  package-lock.json,
+  package.json
+]
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
