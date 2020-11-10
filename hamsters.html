@@ -1,0 +1,14 @@
+---
+title: Hamsters
+---
+<h1>Hamsters</h1>
+
+<ul>
+  {% for hamster in site.hamsters %}
+    <li>
+      <h2><a href='{{ hamster.url }}'></a>{{ hamster.name }}</h2>
+      <h3>{{ hamster.position }}</h3>
+      <p>{{ hamster.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

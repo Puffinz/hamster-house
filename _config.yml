@@ -1,6 +1,8 @@
 collections:
   authors:
     output: true
+  hamsters:
+    output: true
 
 defaults:
   - scope:
