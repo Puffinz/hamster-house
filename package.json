@@ -1,0 +1,25 @@
+{
+  "name": "hamster-house",
+  "version": "1.0.0",
+  "description": "Hamster information directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Puffinz/hamster-house.git"
+  },
+  "keywords": [],
+  "author": "Puffins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Puffinz/hamster-house/issues"
+  },
+  "homepage": "https://github.com/Puffinz/hamster-house#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1"
+  }
+}
